@@ -19,12 +19,12 @@ Every evaluation in this repository is conducted using a standardized multi-crit
 
 | # | Case Study Title | Focus Evaluation Domain | Link |
 | :-: | :--- | :--- | :-: |
-| **01** | Side-by-Side Evaluation (Constraint Following) | Instruction Following vs. Conversational Fluff | [View Case Study](./mini-projects/Case_Study_01.md) |
-| **02** | Side-by-Side Evaluation (Factuality & Hallucination) | Historical & Scientific Accuracy Verification | [View Case Study](./mini-projects/Case_Study_02.md) |
+| **01** | Side-by-Side Evaluation (Constraint Following) | Instruction Following vs. Conversational Fluff | [View Case Study](./mini-projects/Task%201:%20Side-by-Side%20Evaluation%20(Constraint%20Following)) |
+| **02** | Side-by-Side Evaluation (Factuality & Hallucination) | Historical & Scientific Accuracy Verification | [View Case Study](./mini-projects/Task%202:%20Side-by-Side%20Evaluation%20(Factuality%20%26%20Hallucination)) |
 | **03** | AI Response Evaluation (Customer Support) | Customer Support Response Quality | [View Case Study](./mini-projects/task3-customer-support.md) |
 | **04** | Single-Response Evaluation (Instruction Following & Policy Assumptions) | Logic Correctness, Policy Assumptions & Edge Cases | [View Case Study](./mini-projects/task4-instruction-following-refund.md) |
 | **05** | Side-by-Side Evaluation (Negative Constraints & Policy Compliance) | Exclusion Rules & Policy Compliance | [View Case Study](./mini-projects/task5-negative-constraints-and-compliance.md) |
-| **06** | Side-by-Side Evaluation - Egyptian Arabic (Multi-Constraint Following) | Egyptian Arabic & Multi-Constraint Logic | [View Case Study](./mini-projects/Case_Study_06.md) |
+| **06** | Side-by-Side Evaluation - Egyptian Arabic (Multi-Constraint Following) | Egyptian Arabic & Multi-Constraint Logic | [View Case Study](./mini-projects/Task%206:%20Side-by-Side%20Evaluation%20-%20Egyptian%20Arabic%20(Multi-Constraint%20Following)) |
 
 ---
 
