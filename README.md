@@ -17,8 +17,6 @@ Every evaluation in this repository is conducted using a standardized multi-crit
 
 ---
 
-## 📂 Case Studies Index
-
 | # | Case Study Title | Focus Evaluation Domain | Link |
 | :-: | :--- | :--- | :-: |
 | **01** | Side-by-Side Evaluation (Constraint Following) | Instruction Following vs. Conversational Fluff | [View Case Study](./mini-projects/Case_Study_01.md) |
