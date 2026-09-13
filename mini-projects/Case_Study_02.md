@@ -1,18 +1,18 @@
 # AI Response Evaluation - Case Study #02
 
-## 📌 Task Overview
+##  Task Overview
 * **Domain:** History & Science
 * **Language:** English (EN)
 * **Task Type:** Side-by-Side (SdS) Model Evaluation
 
 ---
 
-## 📝 User Prompt
+## User Prompt
 > "When did the Apollo 11 moon landing occur, and who were the three astronauts on board? Mention two primary lunar samples brought back, keeping your response concise."
 
 ---
 
-## 🤖 Model Responses
+## Model Responses
 
 ### Model A
 > The Apollo 11 moon landing occurred on July 20, 1969. The three crew members were Neil Armstrong, Buzz Aldrin, and Michael Collins. The mission brought back primary lunar samples including basalt rocks and lunar soil (regolith).
@@ -22,7 +22,7 @@
 
 ---
 
-## 📊 Evaluation Matrix
+## Evaluation Matrix
 
 | Evaluation Criterion | Model A | Model B |
 | :--- | :--- | :--- |
@@ -32,7 +32,7 @@
 
 ---
 
-## 🏆 Final Preference & Justification
+## Final Preference & Justification
 
 * **Preference:** `Model A is Much Better Than Model B`
 
