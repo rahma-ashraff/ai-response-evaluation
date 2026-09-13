@@ -1,0 +1,57 @@
+# Task 6: Side-by-Side Evaluation - Egyptian Arabic (Multi-Constraint Following)
+
+## Task Overview
+* **Domain:** Culinary / Everyday Life (Localized Content)
+* **Language:** Egyptian Arabic (AR-EG)
+* **Task Type:** Side-by-Side (SdS) Model Evaluation
+* **Evaluation Focus:** Multi-Constraint Following, One-Pot Recipe Logic, Dialect Appropriateness, Word Count Limit
+
+---
+
+## 1. User Prompt
+
+> «عايز طريقة سريعة لعمل الكشري المصري في حلة واحدة عشان أكسل أغسل مواعين. الشروط: الإجابة تكون بالعامية المصرية، في شكل خطوات مرقمة، ولا تتجاوز 70 كلمة.»
+
+---
+
+## 2. Model Responses
+
+### Model A
+> 1. حمر بصل شرائح في زيت غزير وشيله على جنب.
+> 2. في نفس الحلة، حمر كوب شعرية، وضف عليه كوب رز، وكوب عدس بجبة مسلوق نص سلقة، وكوب مكرونة.
+> 3. تبل بملح وكمون، وضف مية مغلية تغطي المكونات بـ2 سم، ووطي النار لحد الاستواء.
+> 4. لما المكونات تستوي، اخلطها كويس مع بعض.
+> 5. قدم الكشري وفوقه البصل المقرمش والصلصة والدقة.
+
+### Model B
+> أهلاً بك! الكشري من الأكلات المصرية الشهيرة جداً وغسيل المواعين فعلاً مشكلة.
+> 
+> عشان تعمل كشري الحلة الواحدة:
+> - اسلق المكرونة في حلة لوحدها.
+> - اسلق العدس في حلة ثانية.
+> - اعمل الرز بالشعرية في حلة ثالثة.
+> - اخلطهم كلهم على بعض عند التقديم مع الدقة والصلصة.
+> 
+> وبالهنا والشفا!
+
+---
+
+## 3. Evaluation Matrix
+
+| Evaluation Criterion | Model A | Model B |
+| :--- | :--- | :--- |
+| **Instruction Following** | **Pass:** التزم بالعامية المصرية، والخطوات المرقمة، وشرط الحلة الواحدة، ولم يتجاوز حد الكلمات (60 كلمة). | **Fail:** خالف شرط "حلة واحدة" باستخدام عدة حلل، واستخدم نقاط بدل خطوات مرقمة. |
+| **Truthfulness & Logic** | **Pass:** قدم طريقة منطقية ومناسبة لتحضير كشري الحلة الواحدة. | **Fail:** قدم طريقة الكشري التقليدي متعدد الحلل، وهو عكس المطلوب تمامًا. |
+| **Formatting & Tone** | **Pass:** استخدم خطوات مرقمة وبدأ مباشرة بدون مقدمة أو حشو غير مطلوب. | **Fail:** استخدم مقدمة غير مطلوبة وقائمة نقطية بدل الترقيم. |
+
+---
+
+## 4. Final Preference & Justification
+
+**Preference:** `Model A is Much Better than Model B`
+
+### Detailed Justification
+Model A followed the user's constraints accurately: it used natural Egyptian Arabic, provided a genuine one-pot koshary recipe, presented the instructions as numbered steps, and stayed within the 70-word limit.
+
+Model B failed the primary functional requirement by suggesting a multi-pot method (using 3 separate pots), used bullet points instead of numbered steps, and included unnecessary conversational filler. Therefore, Model A is significantly better than Model B.
+
