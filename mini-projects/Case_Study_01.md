@@ -1,18 +1,18 @@
 # AI Response Evaluation - Case Study #01
 
-## 📌 Task Overview
+## Task Overview
 * **Domain:** Food & Culinary Marketing / Content Creation
 * **Language:** Arabic (AR)
 * **Task Type:** Side-by-Side (SdS) Model Evaluation
 
 ---
 
-## 📝 User Prompt
+## User Prompt
 > "اكتب لي خطة تسويقية بسيطة لمحل مخبوزات في القاهرة. الشروط: أن تكون الخطة في 3 نقاط فقط، تتضمن فكرة مسابقة على الفيسبوك، وأن لا تتجاوز الإجابة 60 كلمة."
 
 ---
 
-## 🤖 Model Responses
+## Model Responses
 
 ### Model A
 > * **التسويق الرقمي ومسابقة فيسبوك:** إطلاق مسابقة "شاركنا حبك للمخبوزات و اكسب" حيث يشارك المتابعون صور مخبوزاتهم مع إشارة لصفحة المحل لربح جائزة اسبوعية.
@@ -31,7 +31,7 @@
 
 ---
 
-## 📊 Evaluation Matrix
+## Evaluation Matrix
 
 | Evaluation Criterion | Model A | Model B |
 | :--- | :--- | :--- |
